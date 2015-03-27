@@ -1,0 +1,17 @@
+ARG_ENABLE("yaf", "enable yaf", "no");
+
+if (PHP_YAF != "no") {
+  EXTENSION("yaf", "yaf.c", null, "-I"+configure_module_dirname);
+  ADD_SOURCES(configure_module_dirname + "/kernel", "main.c memory.c exception.c hash.c debug.c backtrace.c object.c array.c string.c fcall.c require.c file.c operators.c concat.c variables.c filter.c iterator.c exit.c time.c", "yaf");
+  ADD_SOURCES(configure_module_dirname + "/kernel/extended", "array.c", "yaf");
+  
+  ADD_SOURCES(configure_module_dirname + "/yaf/config", "exception.zep.c ini.zep.c simple.zep.c", "yaf");
+	ADD_SOURCES(configure_module_dirname + "/yaf/exception/loadfailed", "action.zep.c controller.zep.c loadfailed.zep.c module.zep.c view.zep.c", "yaf");
+	ADD_SOURCES(configure_module_dirname + "/yaf/exception", "dispatchfailed.zep.c routerfailed.zep.c startuperror.zep.c typeerror.zep.c", "yaf");
+	ADD_SOURCES(configure_module_dirname + "/yaf/request", "exception.zep.c http.zep.c simple.zep.c", "yaf");
+	ADD_SOURCES(configure_module_dirname + "/yaf/response", "cli.zep.c exception.zep.c http.zep.c", "yaf");
+	ADD_SOURCES(configure_module_dirname + "/yaf/route", "exception.zep.c map.zep.c regex.zep.c rewrite.zep.c simple.zep.c supervar.zep.c", "yaf");
+	ADD_SOURCES(configure_module_dirname + "/yaf/view", "simple.zep.c", "yaf");
+	ADD_SOURCES(configure_module_dirname + "/yaf", "action_abstract.zep.c application.zep.c bootstrap_abstract.zep.c config_abstract.zep.c controller_abstract.zep.c dispatcher.zep.c exception.zep.c g.zep.c loader.zep.c plugin_abstract.zep.c registry.zep.c request_abstract.zep.c response_abstract.zep.c route_interface.zep.c route_static.zep.c router.zep.c session.zep.c view_interface.zep.c", "yaf");
+  ADD_FLAG("CFLAGS_YAF", "/D ZEPHIR_RELEASE");
+}

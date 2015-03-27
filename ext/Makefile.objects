@@ -1,0 +1,134 @@
+yaf.lo: /opt/yaf/ext/yaf.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf.c -o yaf.lo 
+kernel/main.lo: /opt/yaf/ext/kernel/main.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/main.c -o kernel/main.lo 
+kernel/memory.lo: /opt/yaf/ext/kernel/memory.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/memory.c -o kernel/memory.lo 
+kernel/exception.lo: /opt/yaf/ext/kernel/exception.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/exception.c -o kernel/exception.lo 
+kernel/hash.lo: /opt/yaf/ext/kernel/hash.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/hash.c -o kernel/hash.lo 
+kernel/debug.lo: /opt/yaf/ext/kernel/debug.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/debug.c -o kernel/debug.lo 
+kernel/backtrace.lo: /opt/yaf/ext/kernel/backtrace.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/backtrace.c -o kernel/backtrace.lo 
+kernel/object.lo: /opt/yaf/ext/kernel/object.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/object.c -o kernel/object.lo 
+kernel/array.lo: /opt/yaf/ext/kernel/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/array.c -o kernel/array.lo 
+kernel/extended/array.lo: /opt/yaf/ext/kernel/extended/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/extended/array.c -o kernel/extended/array.lo 
+kernel/string.lo: /opt/yaf/ext/kernel/string.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/string.c -o kernel/string.lo 
+kernel/fcall.lo: /opt/yaf/ext/kernel/fcall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/fcall.c -o kernel/fcall.lo 
+kernel/require.lo: /opt/yaf/ext/kernel/require.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/require.c -o kernel/require.lo 
+kernel/file.lo: /opt/yaf/ext/kernel/file.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/file.c -o kernel/file.lo 
+kernel/operators.lo: /opt/yaf/ext/kernel/operators.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/operators.c -o kernel/operators.lo 
+kernel/concat.lo: /opt/yaf/ext/kernel/concat.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/concat.c -o kernel/concat.lo 
+kernel/variables.lo: /opt/yaf/ext/kernel/variables.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/variables.c -o kernel/variables.lo 
+kernel/filter.lo: /opt/yaf/ext/kernel/filter.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/filter.c -o kernel/filter.lo 
+kernel/iterator.lo: /opt/yaf/ext/kernel/iterator.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/iterator.c -o kernel/iterator.lo 
+kernel/time.lo: /opt/yaf/ext/kernel/time.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/time.c -o kernel/time.lo 
+kernel/exit.lo: /opt/yaf/ext/kernel/exit.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/kernel/exit.c -o kernel/exit.lo 
+yaf/config/exception.lo: /opt/yaf/ext/yaf/config/exception.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/config/exception.zep.c -o yaf/config/exception.lo 
+yaf/config/ini.lo: /opt/yaf/ext/yaf/config/ini.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/config/ini.zep.c -o yaf/config/ini.lo 
+yaf/config/simple.lo: /opt/yaf/ext/yaf/config/simple.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/config/simple.zep.c -o yaf/config/simple.lo 
+yaf/exception/loadfailed/action.lo: /opt/yaf/ext/yaf/exception/loadfailed/action.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/exception/loadfailed/action.zep.c -o yaf/exception/loadfailed/action.lo 
+yaf/exception/loadfailed/controller.lo: /opt/yaf/ext/yaf/exception/loadfailed/controller.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/exception/loadfailed/controller.zep.c -o yaf/exception/loadfailed/controller.lo 
+yaf/exception/loadfailed/loadfailed.lo: /opt/yaf/ext/yaf/exception/loadfailed/loadfailed.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/exception/loadfailed/loadfailed.zep.c -o yaf/exception/loadfailed/loadfailed.lo 
+yaf/exception/loadfailed/module.lo: /opt/yaf/ext/yaf/exception/loadfailed/module.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/exception/loadfailed/module.zep.c -o yaf/exception/loadfailed/module.lo 
+yaf/exception/loadfailed/view.lo: /opt/yaf/ext/yaf/exception/loadfailed/view.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/exception/loadfailed/view.zep.c -o yaf/exception/loadfailed/view.lo 
+yaf/exception/dispatchfailed.lo: /opt/yaf/ext/yaf/exception/dispatchfailed.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/exception/dispatchfailed.zep.c -o yaf/exception/dispatchfailed.lo 
+yaf/exception/routerfailed.lo: /opt/yaf/ext/yaf/exception/routerfailed.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/exception/routerfailed.zep.c -o yaf/exception/routerfailed.lo 
+yaf/exception/startuperror.lo: /opt/yaf/ext/yaf/exception/startuperror.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/exception/startuperror.zep.c -o yaf/exception/startuperror.lo 
+yaf/exception/typeerror.lo: /opt/yaf/ext/yaf/exception/typeerror.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/exception/typeerror.zep.c -o yaf/exception/typeerror.lo 
+yaf/request/exception.lo: /opt/yaf/ext/yaf/request/exception.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/request/exception.zep.c -o yaf/request/exception.lo 
+yaf/request/http.lo: /opt/yaf/ext/yaf/request/http.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/request/http.zep.c -o yaf/request/http.lo 
+yaf/request/simple.lo: /opt/yaf/ext/yaf/request/simple.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/request/simple.zep.c -o yaf/request/simple.lo 
+yaf/response/cli.lo: /opt/yaf/ext/yaf/response/cli.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/response/cli.zep.c -o yaf/response/cli.lo 
+yaf/response/exception.lo: /opt/yaf/ext/yaf/response/exception.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/response/exception.zep.c -o yaf/response/exception.lo 
+yaf/response/http.lo: /opt/yaf/ext/yaf/response/http.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/response/http.zep.c -o yaf/response/http.lo 
+yaf/route/exception.lo: /opt/yaf/ext/yaf/route/exception.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/route/exception.zep.c -o yaf/route/exception.lo 
+yaf/route/map.lo: /opt/yaf/ext/yaf/route/map.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/route/map.zep.c -o yaf/route/map.lo 
+yaf/route/regex.lo: /opt/yaf/ext/yaf/route/regex.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/route/regex.zep.c -o yaf/route/regex.lo 
+yaf/route/rewrite.lo: /opt/yaf/ext/yaf/route/rewrite.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/route/rewrite.zep.c -o yaf/route/rewrite.lo 
+yaf/route/simple.lo: /opt/yaf/ext/yaf/route/simple.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/route/simple.zep.c -o yaf/route/simple.lo 
+yaf/route/supervar.lo: /opt/yaf/ext/yaf/route/supervar.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/route/supervar.zep.c -o yaf/route/supervar.lo 
+yaf/view/simple.lo: /opt/yaf/ext/yaf/view/simple.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/view/simple.zep.c -o yaf/view/simple.lo 
+yaf/action_abstract.lo: /opt/yaf/ext/yaf/action_abstract.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/action_abstract.zep.c -o yaf/action_abstract.lo 
+yaf/application.lo: /opt/yaf/ext/yaf/application.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/application.zep.c -o yaf/application.lo 
+yaf/bootstrap_abstract.lo: /opt/yaf/ext/yaf/bootstrap_abstract.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/bootstrap_abstract.zep.c -o yaf/bootstrap_abstract.lo 
+yaf/config_abstract.lo: /opt/yaf/ext/yaf/config_abstract.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/config_abstract.zep.c -o yaf/config_abstract.lo 
+yaf/controller_abstract.lo: /opt/yaf/ext/yaf/controller_abstract.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/controller_abstract.zep.c -o yaf/controller_abstract.lo 
+yaf/dispatcher.lo: /opt/yaf/ext/yaf/dispatcher.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/dispatcher.zep.c -o yaf/dispatcher.lo 
+yaf/exception.lo: /opt/yaf/ext/yaf/exception.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/exception.zep.c -o yaf/exception.lo 
+yaf/g.lo: /opt/yaf/ext/yaf/g.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/g.zep.c -o yaf/g.lo 
+yaf/loader.lo: /opt/yaf/ext/yaf/loader.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/loader.zep.c -o yaf/loader.lo 
+yaf/plugin_abstract.lo: /opt/yaf/ext/yaf/plugin_abstract.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/plugin_abstract.zep.c -o yaf/plugin_abstract.lo 
+yaf/registry.lo: /opt/yaf/ext/yaf/registry.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/registry.zep.c -o yaf/registry.lo 
+yaf/request_abstract.lo: /opt/yaf/ext/yaf/request_abstract.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/request_abstract.zep.c -o yaf/request_abstract.lo 
+yaf/response_abstract.lo: /opt/yaf/ext/yaf/response_abstract.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/response_abstract.zep.c -o yaf/response_abstract.lo 
+yaf/route_interface.lo: /opt/yaf/ext/yaf/route_interface.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/route_interface.zep.c -o yaf/route_interface.lo 
+yaf/route_static.lo: /opt/yaf/ext/yaf/route_static.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/route_static.zep.c -o yaf/route_static.lo 
+yaf/router.lo: /opt/yaf/ext/yaf/router.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/router.zep.c -o yaf/router.lo 
+yaf/session.lo: /opt/yaf/ext/yaf/session.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/session.zep.c -o yaf/session.lo 
+yaf/view_interface.lo: /opt/yaf/ext/yaf/view_interface.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/opt/yaf/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /opt/yaf/ext/yaf/view_interface.zep.c -o yaf/view_interface.lo 
+$(phplibdir)/yaf.la: ./yaf.la
+	$(LIBTOOL) --mode=install cp ./yaf.la $(phplibdir)
+
+./yaf.la: $(shared_objects_yaf) $(YAF_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_yaf) $(YAF_SHARED_LIBADD)
+
